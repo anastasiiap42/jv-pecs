@@ -12,6 +12,18 @@ public class Truck extends Machine {
         size = DEFAULT_SIZE;
     }
 
+    public Truck(int size) {
+        this.size = size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int getSize() {
+        return this.size;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Truck started to work");

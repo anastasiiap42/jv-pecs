@@ -12,6 +12,18 @@ public class Bulldozer extends Machine {
         loadCapacity = DEFAULT_LOAD_CAPACITY;
     }
 
+    public Bulldozer(int loadCapacity) {
+        this.loadCapacity = loadCapacity;
+    }
+
+    public void setLoadCapacity(int loadCapacity) {
+        this.loadCapacity = loadCapacity;
+    }
+
+    public int getLoadCapacity() {
+        return this.loadCapacity;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");

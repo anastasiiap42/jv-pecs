@@ -12,6 +12,18 @@ public class Excavator extends Machine {
         speed = DEFAULT_LOAD_CAPACITY;
     }
 
+    public Excavator(int speed) {
+        this.speed = speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public int getSpeed() {
+        return this.speed;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");

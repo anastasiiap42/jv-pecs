@@ -7,7 +7,7 @@ package core.mate.academy.model;
 public class Bulldozer extends Machine {
     private static final int DEFAULT_LOAD_CAPACITY = 100;
     private int loadCapacity;
-
+    
     public Bulldozer() {
         loadCapacity = DEFAULT_LOAD_CAPACITY;
     }

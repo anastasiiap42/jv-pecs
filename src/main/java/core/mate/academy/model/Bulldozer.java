@@ -5,7 +5,11 @@ package core.mate.academy.model;
  * Do not remove no-args constructor
  */
 public class Bulldozer extends Machine {
+    private static final int DEFAULT_LOAD_CAPACITY = 100;
+    private int loadCapacity;
+
     public Bulldozer() {
+        loadCapacity = DEFAULT_LOAD_CAPACITY;
     }
 
     @Override

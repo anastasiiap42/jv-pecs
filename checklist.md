@@ -24,9 +24,9 @@ return new ArrayList<>(machines);
 ```
 #### The size of a list passed to `fill()` method should remain the same. 
 Just replace the old values with the new ones.
-#### Don't forget about access modifiers for your custom fields in `Excavator`, `Truck` and `Bulldozer` classes.
+#### Don't forget about access modifiers for your custom fields in `Excavator`, `TruckProducer` and `Bulldozer` classes.
 You should never want to expose the object fields directly. They should be accessed through special methods (getters and setters).
-#### Don't remove no-args constructors in `Excavator`, `Truck` and `Bulldozer` classes.
+#### Don't remove no-args constructors in `Excavator`, `TruckProducer` and `Bulldozer` classes.
 They will be needed to run the test.
 #### Don't return null or specific type List in `getAll()` when no producer has been found.
 Returning null is considered to be a bad practice: a user of your method needs to write additional null checks when 

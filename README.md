@@ -1,11 +1,11 @@
 # jv-pecs
 
-1. You have the abstract class `Machine` and three sub-classes: `Bulldozer`, `Excavator`, and `Truck`. Feel free to add some type-specific fields to these classes.
+1. You have the abstract class `Machine` and three sub-classes: `Bulldozer`, `Excavator`, and `TruckProducer`. Feel free to add some type-specific fields to these classes.
 1. Each machine has the ability to start working.
 1. There is a MachineProducer interface created.
-The goal of the implementation of this interface is to create a list of specific machines (`Bulldozer`, `Excavator`, and `Truck`). 
-You should have at least 3 implementations: `BulldozerProducer`, `ExcavatorProducer`, `TruckProducer`;
-Please parameterize your `MachineProducer` and replace `Object` in `get()` with the suitable option.
+   The goal of the implementation of this interface is to create a list of specific machines (`Bulldozer`, `Excavator`, and `TruckProducer`).
+   You should have at least 3 implementations: `BulldozerProducer`, `ExcavatorProducer`, `TruckProducer`;
+   Please parameterize your `MachineProducer` and replace `Object` in `get()` with the suitable option.
     ```java
     public interface MachineProducer<PARAMETRIZE ME>{ ... }
     ```
